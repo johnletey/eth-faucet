@@ -167,7 +167,7 @@
                   bind:value={input}
                   class="input is-rounded"
                   type="text"
-                  placeholder="Enter your address or ENS name"
+                  placeholder="Enter your wallet address"
                 />
               </p>
               <p class="control">
@@ -187,6 +187,18 @@
 </main>
 
 <style>
+  a.navbar-item:hover {
+    background-color: transparent;
+  }
+  .button.is-primary {
+    background-color: #5A6CE8;
+  }
+  .button.is-primary:hover {
+    background-color: #4655BB;
+  }
+  .button.is-primary:focus {
+    box-shadow: none;
+  }
   .hero.is-info {
     background:
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
